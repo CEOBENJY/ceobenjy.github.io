@@ -1,0 +1,53 @@
+body { background : Red; text-align : center; margin-top: 20px; margin-bottom : 20px }
+
+div {width : 650px; margin: auto ; border : white dotted 1px; padding: 25px}
+
+h1 { text-align : center; color : white}
+
+h2 { text-align : center; color : white}
+
+h3 { text-align : center; color : white}
+
+p { text-align : center; color : white} 
+
+li { text-align : center; color : white}
+
+span { color : white} 
+
+a { color : white} 
+iframe { border :5px; color : black;} 
+
+body {
+  background-image: url("arsenal%20background.webp");
+  background-repeat: repeat;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border: 1px white;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {background-color: gray;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
